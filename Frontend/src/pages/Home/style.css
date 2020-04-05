@@ -1,0 +1,216 @@
+
+/*Propiedades da pagina universais */
+
+*{
+    margin:0;
+    padding:0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+/*propiedades da img principal*/
+.ImgPrincipal{
+    width: 100%;
+    height: 669px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;    
+    background-image:url("../../assets/pet1.jpeg");
+    background-size:cover;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Propiedades do menu*/    
+.menu{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    background: rgba(0,0,0,.4);
+    /*position: fixed;*/
+    width:100%;
+    height:70px;
+}
+    
+nav a,li{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    list-style:none;
+    padding:10px;
+    
+    
+}
+    
+a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    list-style:none;
+    padding:10px;
+}
+    
+nav{
+    display:flex;
+}
+    
+li{
+    text-decoration:none;
+}
+    
+/*Propiedades do texto inicial*/
+.textoInicial{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Amatic SC', cursive;
+}
+
+.informaçãoSobrePagina{
+    color: black;
+    font-size: 30px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.sobreHome{
+    width: 100%;
+    height: 500px;
+    background-color: LightCyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.gifFinal{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#gato2{
+    width: 400px;
+    height: 400px;
+}
+
+/*Propiedades do formulario*/
+.principal{
+    margin-left: 300px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    width:400px;
+    padding:40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow:0 15px 25px rgba(0,0,0,.5);
+    border-radius:10px;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal h2{
+    margin:0 0 30px;
+    padding:0;
+    color:#fff;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal .meio{
+    position: relative;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal .meio input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    letter-spacing:1px;
+    margin-bottom:30px;
+    border:none;
+    border-bottom:1px solid;
+    outline:none;
+    background: transparent;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal .meio label{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:16px;
+    color:#fff;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal .meio input:focus~label,
+.principal .meio input:valid~label{
+    top:-18px;
+    left:0;
+    color:white;
+    font-size:12px;
+    font-family: 'Amatic SC', cursive;
+}
+    
+.principal input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#fff;
+    background:black;
+    padding:10px 20px;
+    cursor: pointer;
+    border-radius:10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*Propiedades sobre o paragrafo de informação*/
+.informação{
+    width: 600px;
+    height: 200px;
+    margin-left: 650px;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*Propiedades do titulo*/
+.titulo{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+}
