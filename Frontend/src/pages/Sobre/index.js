@@ -16,7 +16,7 @@ export default function sobre(){
                 <li><Link to="/">Inicio</Link></li>
                 <li><Link to="/Sobre">Sobre</Link></li>
                 <li><Link to="/cadastro">Cadastro</Link></li>
-                <li><Link to="/profile">Sair</Link></li>
+                <li><Link to="/sair">Sair</Link></li>
              </nav>
          </header>
           <div className="tituloSobre">

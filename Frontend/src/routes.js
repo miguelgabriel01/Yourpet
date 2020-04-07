@@ -5,7 +5,7 @@ import Home from './pages/Home';//importa a pagina inicial
 import Sobre from './pages/Sobre';//importa a pagina de sobre
 import Cadastro from './pages/Cadastro';//importa a pagina de cadastro
 import Sair from './pages/Sair';//importa a pagina sair
-
+import Doação from './pages/Doação'
 
 
 export default function Routes(){
@@ -17,6 +17,7 @@ export default function Routes(){
             <Route path="/sobre" exact component={Sobre} />
             <Route path="/cadastro" exact component={Cadastro} />
             <Route path="/sair" exact component={Sair} />
+            <Route path="/doar" exact component={Doação} />
 
           </Switch>
         </BrowserRouter>

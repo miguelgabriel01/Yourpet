@@ -2,6 +2,7 @@ import React from 'react';//importa o react para o arquivo
 import './style.css';//importa o css da pagina
 import { Link } from 'react-router-dom';//importa o uso de links sem precisar recarregar a pagina
 
+import gato6 from '../../assets/gato6.gif';//importa o gif do gato 1
 
 export default function cadastro(){
     return(
@@ -23,42 +24,29 @@ export default function cadastro(){
       </div>
 
 
-<div class="cadastro">
-         <div class="formulario">
-          <div class="principal">
-            <h2>Iniciar cadastro de sua ONG</h2>
-        
-             <form>
-                <div class="meio">
-                  <input type="text" name="nome" required=" " />
-                  <label>Nome da ONG</label>
-                </div> 
-                <div class="meio">
-                  <input type="email" name="email" required=" " />
-                  <label>Email oficial da ONG</label>
-                </div> 
-                <div class="meio">
-                  <input type="text" name=""  required=" " />
-                  <label>Cidade</label>
-                </div>   
-                <div class="meio">
-                  <input type="text" name=""  required=" " />
-                  <label>UF</label>
-                </div>   
-                <div class="meio">
-                  <input type="password" name="senha2"  required=" " />
-                  <label>Escolha uma Senha</label>
-                </div>   
-                <input type="submit" name="" value="Cadastrar" />
-            </form>
+<div className="cadastro">
+  <div className="formularioCadastroOng">
+          <form>
+            <input placeholder="Nome da ONG"/>
+            <input type="email" placeholder="E-mail"/>
+            <input placeholder="Whatsapp" maxlength="11" />
+            <textarea  placeholder="Pequena descrição sobre a ONG" maxlength="500" />
+         
+           <div className="input-group">
+               
+            <input placeholder="Cidade" />
+            <input placeholder="UF" style={{width:80}} maxlength="2"/>
            </div>
-         </div>
-         <p class="informação">Ao registrar sua ONG em nosso site, as pessoas de todo o Brasil podem ver seu trabalho e colaborar para ajudar financeiramente, adotando um animal ou até promovendo para que mais pessoas possam conhecer e ajudar os animais que precisam  de apoio financeiro ou de um lar. O cadastro é totalmente gratuito e seguro.</p>
-    
+         
+           <button className="buttonCadastrarOng" type="submit" >Cadastrar</button>
+         
+         </form>
     </div>
-    
-        </div>
-
+        
+    <img src={gato6} alt="gato impossibilitado de dormi" className="imgCadastroPet"/>
+    </div>
+    </div>
+        
 
     );
 }

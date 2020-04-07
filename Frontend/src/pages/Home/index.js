@@ -31,29 +31,19 @@ export default function home(){
 
     <div className="textoInicial">
        <p className="informaçãoSobrePagina"> bem-vindo ao maior portal de adoção e doação de animais do país. faça o Download do aplicativo e confira as possibilidades de doar e adotar um animal de estimação ou colaborar com alguma ong na qual somos parceiros</p>
-        <img src={gato1} alt="gato impossibilitado de dormi" />
+        <img src={gato1} alt="gato impossibilitado de dormi" className="gato1"/>
     </div>
 
 
 <div className="sobreHome">
- <div className="formulario">
- <div className="principal">
-<h2>Iniciar doação</h2>
-
+ <div className="formularioLogin">
  <form>
-    <div className="meio">
-      <input type="email" name="email" required=" " />
-      <label>Email</label>
-    </div> 
-    <div className="meio">
-      <input type="password" name="senha"  required=" " />
-      <label>Senha</label>
-    </div>   
-     <input type="submit" name="" value="Entrar" />
+   <input type="email" placeholder="E-mail"/>
+   <input placeholder="ID" />
+  <button className="buttonLogin" type="submit" >Entrar</button>
 </form>
 </div>
-</div>
-<p className="informação">Para iniciar o processo de adoção, você não precisa estar registrado no site. mas se você quiser fazer algum tipo de doação, por segurança, é necessário que o usuário esteja cadastrado.</p>
+<p className="informaçãoHome">Para iniciar o processo de adoção, você não precisa estar registrado no site. mas se você quiser fazer algum tipo de doação, por segurança, é necessário que o usuário esteja cadastrado.</p>
 
 </div>
 

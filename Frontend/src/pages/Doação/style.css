@@ -15,14 +15,14 @@
 
 
 /*propiedades da img principal*/
-.ImgPrincipalCadastro{
+.ImgPrincipalCadastroPet{
     width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-color: LightCyan;
+    background-color: MistyRose;
     background-size:cover;
     background-clip: content-box;
     background-size: cover;
@@ -30,7 +30,7 @@
 }
 
 /*Propiedades do menu*/    
-.menuCadastro{
+.menuCadastroPet{
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
@@ -83,7 +83,7 @@ img{
 }
 
 /*Propiedades do titulo*/
-.tituloCadastro{
+.tituloCadastroPet{
     width: 100%;
     height: 120px;
     display: flex;
@@ -98,7 +98,7 @@ h1{
 }
 
 /*Propiedades sobre cadastro*/
-.cadastro{
+.cadastroPet{
     width: 100%;
     height: 600px;
     display: flex;
@@ -113,7 +113,7 @@ h1{
 
 
 /*propiedades do gif ao lado do form de cadastro*/
-.gato6{
+.imgCadastroPet{
     width: 400px;
     height: 400px;
     margin-top: -900px;
@@ -122,13 +122,12 @@ h1{
 
 /*estilização do form de cadastro de ongs*/
 
-.formularioCadastroOng{
-    border: 1px solid PeachPuff;
+.formularioCadastroPet{
+    border: 1px solid lightcyan;
     width: 600px;
     margin-left: -500px;
     margin-bottom: 300px;
     padding: 10px;
-
 }
 
 input, button, textarea{
@@ -159,13 +158,13 @@ form textarea{
     resize: vertical;
 }
 
-.buttonCadastrarOng{
+.buttonCadastrarPet{
     width: 100%;
     height: 60px;
-    background-color: PeachPuff;
+    background-color: PowderBlue;
     border: 0;
     border-radius: 8px;
-    color: #fff;
+    color: white;
     font-weight: 700px;
     margin-top: 16px;
     display: inline-block;
