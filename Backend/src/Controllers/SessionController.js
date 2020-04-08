@@ -2,10 +2,11 @@ const connection = require('../Database/connection')
 
 module.exports = {
     async create(request, response) {
-        const {id} = request.body;//para fazer o login, a ONG deve informar o email e a senha
+        const {id, email} = request.body;//para fazer o login, a ONG deve informar o email e a senha
 
         const ongs = await connection('ongs')
         .where('id',id)
+        .where('email',email)
         .select('nome','cidade','uf','email')
         .first();
 
