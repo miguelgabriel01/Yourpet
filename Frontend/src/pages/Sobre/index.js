@@ -26,19 +26,15 @@ export default function sobre(){
 
 
        <div className="sobre">
-      <p>  Nos da Youpet, somos o maior portal de doação 
-          e adoção de Pets, em todo o Brasil. pioneiros 
-          na iniciativa de facilitar o processo que é a 
-          possibilidade de ajudar um animal seja adotando
-           e levando para casa, ou, simplesmente colaborando 
-           para a sua manutenção. temos em nosso registro, mais
-            de 5 mil animais de todas as cores, raças e sexo, a 
-            procura de um lar. contamos com a parceria de ONGs que
-             fazem parte desta comunidade  que tem por único e belo 
-             objetivo cuidar daqueles que foram abandonados por quem
-              deveria lhe dar proteção.<br /><br />
-Somos uma iniciativa totalmente privada, na qual
- nossa intenção esta longe de obter algum lucro com  este site.</p>
+      <p> Nós da Yourpet somos uma plataforma que visa facilitar a adoção e doação de animais.
+          somos responsáveis por intermediar as ONGs de proteção animal e o público que deseja
+          adotar um PET de estimação. Iniciar o processo de doação em nosso sistema é muito simples.
+          Basta apenas o responsável pela ONG ou instituição, fazer um registro simples em nosso 
+          sistema. logo depois ele estará autorizado a registrar os animais de estimação em nosso banco 
+          de dados. no final, o usuário que deseja adotar um animal deve fazer o download do nosso aplicativo 
+          e verificar as ONGs mais próximas em sua região.<br /><br />
+          Somos uma iniciativa totalmente privada, na qual
+          nossa intenção esta longe de obter algum lucro com  este site.</p>
 
  <img src={gato4} alt="" className="imgSobre" />
   </div>

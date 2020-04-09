@@ -20,7 +20,7 @@ export default function sair(){
            </nav>
         </header>
          <div className="tituloSair">
-           <h1>Adeus...</h1>
+           <h1>Até logo...</h1>
          </div>
       </div>
 

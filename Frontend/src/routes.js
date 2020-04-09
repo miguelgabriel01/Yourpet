@@ -6,7 +6,7 @@ import Sobre from './pages/Sobre';//importa a pagina de sobre
 import Cadastro from './pages/Cadastro';//importa a pagina de cadastro
 import Sair from './pages/Sair';//importa a pagina sair
 import Doação from './pages/Doação'
-
+import Petscadastrados from './pages/Petscadastrados'
 
 export default function Routes(){
     return(
@@ -18,6 +18,7 @@ export default function Routes(){
             <Route path="/cadastro" exact component={Cadastro} />
             <Route path="/sair" exact component={Sair} />
             <Route path="/doar" exact component={Doação} />
+            <Route path="/salvos" exact component={Petscadastrados} />
 
           </Switch>
         </BrowserRouter>

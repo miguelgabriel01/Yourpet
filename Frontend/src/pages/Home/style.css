@@ -169,7 +169,7 @@ form textarea{
     transition: filter 0.2s;
 }
 
-.button:hover{
+.buttonLogin:hover{
     filter: brightness(90%);
 }
 
